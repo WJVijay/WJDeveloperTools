@@ -18,7 +18,7 @@
 
 #import "UIColor+WJCategory.h"
 
-//#import "NSObject+ALiHUD.h"
+#import "NSObject+ALiHUD.h"
 
 
 #endif /* WJCategoryHeader_h */

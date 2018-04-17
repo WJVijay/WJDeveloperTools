@@ -15,6 +15,4 @@
 
 #import "WJClassHeader.h"
 
-#import <SVProgressHUD/SVProgressHUD.h>
-
 #endif /* PrefixHeader_h */
