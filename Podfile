@@ -3,6 +3,8 @@
 
 target 'WJDeveloperToolsDemo' do
 
- pod 'SVProgressHUD'
+
+ pod 'SVProgressHUD', '~> 2.2.5'
 
 end
+#
