@@ -7,6 +7,7 @@
 //
 
 #import "UIBarButtonItem+WJCategory.h"
+#import "UIView+WJCategory.h"
 
 @implementation UIBarButtonItem (WJCategory)
 
