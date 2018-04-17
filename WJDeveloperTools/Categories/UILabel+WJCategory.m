@@ -8,6 +8,8 @@
 
 #import "UILabel+WJCategory.h"
 
+#define kSCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define kSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 @implementation UILabel (WJCategory)
 
 + (void)showAlertViewWithTitle:(NSString *)reason subView:(UIView *)subView
