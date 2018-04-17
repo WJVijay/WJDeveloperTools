@@ -10,15 +10,40 @@
 #ifndef WJCategoryHeader_h
 #define WJCategoryHeader_h
 
-#import "NSDate+WJCategoryMethod.h"
-
-#import "UIView+WJCategory.h"
+#pragma mark: -常用分类-
 
 #import "UITextView+WJCategory.h"
 
+#import "NSString+WJCategory.h"
+
+#import "NSDate+WJCategoryMethod.h"
+
+#import "UIAlertController+WJCategory.h"
+
+#import "UIView+WJCategory.h"
+
+#import "UIButton+WJCategory.h"
+
+#import "UITextField+WJCategory.h"
+
+#import "NSArray+WJCategory.h"
+
+#import "NSFileManager+WJCategory.h"
+
+#import "UIViewController+WJMethodSwizzling.h"
+
+#import "UIBarButtonItem+WJCategory.h"
+
+#import "NSObject+WJCategory.h"
+
+#import "NSMutableDictionary+WJCagtegoty.h"
+
+#import "NSMutableArray+WJMethodSwizzling.h"
+
 #import "UIColor+WJCategory.h"
 
-#import "NSObject+ALiHUD.h"
+#import "NSDictionary+WJCategoty.h"
 
+#import "UILabel+WJCategory.h"
 
 #endif /* WJCategoryHeader_h */

@@ -15,6 +15,23 @@
 
 #import "WJTableViewController.h"
 
+//单例宏
 #import "Single.h"
+
+//等待弹窗
+#import "NSObject+ALiHUD.h"
+
+//引导页
+#import "KSGuaidViewManager.h"
+
+//点击出现菜单
+#import "PopoverView.h"
+
+//正则匹配
+#import "HelperUtil.h"
+
+//文件操作
+#import "WJFileManager.h"
+
 
 #endif /* WJClassHeader_h */

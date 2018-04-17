@@ -11,7 +11,6 @@
 		0E1CD19B2085A10A001E1262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1972085A10A001E1262 /* ViewController.m */; };
 		0E1CD19C2085A10A001E1262 /* ClickMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1992085A10A001E1262 /* ClickMenuVC.m */; };
 		0E1CD1AC2085BF2F001E1262 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1AB2085BF2F001E1262 /* User.m */; };
-		0E69097A2085C478006C15FD /* WJSwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69091A2085C478006C15FD /* WJSwizzleMethod.m */; };
 		0E69097B2085C478006C15FD /* WJFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69091B2085C478006C15FD /* WJFileManager.m */; };
 		0E69097C2085C478006C15FD /* HelperUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69091D2085C478006C15FD /* HelperUtil.m */; };
 		0E6909922085C478006C15FD /* UITextField+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6909422085C478006C15FD /* UITextField+WJCategory.m */; };
@@ -81,9 +80,7 @@
 		0E1CD1AA2085BF2F001E1262 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		0E1CD1AB2085BF2F001E1262 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		0E6909192085C478006C15FD /* HelperUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperUtil.h; sourceTree = "<group>"; };
-		0E69091A2085C478006C15FD /* WJSwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSwizzleMethod.m; sourceTree = "<group>"; };
 		0E69091B2085C478006C15FD /* WJFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFileManager.m; sourceTree = "<group>"; };
-		0E69091C2085C478006C15FD /* WJSwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSwizzleMethod.h; sourceTree = "<group>"; };
 		0E69091D2085C478006C15FD /* HelperUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperUtil.m; sourceTree = "<group>"; };
 		0E69092A2085C478006C15FD /* WJFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFileManager.h; sourceTree = "<group>"; };
 		0E69093D2085C478006C15FD /* WJClassHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJClassHeader.h; sourceTree = "<group>"; };
@@ -236,37 +233,37 @@
 		0E6909412085C478006C15FD /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				0E6909422085C478006C15FD /* UITextField+WJCategory.m */,
+				0E6909562085C478006C15FD /* UITextView+WJCategory.h */,
 				0E6909432085C478006C15FD /* UITextView+WJCategory.m */,
+				0E6909552085C478006C15FD /* NSString+WJCategory.h */,
 				0E6909442085C478006C15FD /* NSString+WJCategory.m */,
-				0E6909452085C478006C15FD /* NSArray+WJCategory.m */,
-				0E6909462085C478006C15FD /* UIViewController+WJMethodSwizzling.m */,
-				0E6909472085C478006C15FD /* NSFileManager+WJCategory.m */,
+				0E6909592085C478006C15FD /* NSDate+WJCategoryMethod.h */,
 				0E6909482085C478006C15FD /* NSDate+WJCategoryMethod.m */,
 				0E69094A2085C478006C15FD /* UIAlertController+WJCategory.h */,
-				0E69094B2085C478006C15FD /* UIView+WJCategory.h */,
-				0E69094C2085C478006C15FD /* NSDictionary+WJCategoty.h */,
-				0E69094D2085C478006C15FD /* UIColor+WJCategory.h */,
-				0E69094E2085C478006C15FD /* NSMutableArray+WJMethodSwizzling.h */,
-				0E69094F2085C478006C15FD /* NSObject+WJCategory.m */,
-				0E6909502085C478006C15FD /* UIButton+WJCategory.m */,
-				0E6909512085C478006C15FD /* NSMutableDictionary+WJCagtegoty.h */,
-				0E6909522085C478006C15FD /* UIBarButtonItem+WJCategory.h */,
-				0E6909532085C478006C15FD /* UITextField+WJCategory.h */,
-				0E6909542085C478006C15FD /* NSArray+WJCategory.h */,
-				0E6909552085C478006C15FD /* NSString+WJCategory.h */,
-				0E6909562085C478006C15FD /* UITextView+WJCategory.h */,
 				0E6909572085C478006C15FD /* UIAlertController+WJCategory.m */,
-				0E6909592085C478006C15FD /* NSDate+WJCategoryMethod.h */,
-				0E69095A2085C478006C15FD /* NSFileManager+WJCategory.h */,
-				0E69095B2085C478006C15FD /* UIViewController+WJMethodSwizzling.h */,
-				0E69095C2085C478006C15FD /* UIBarButtonItem+WJCategory.m */,
-				0E69095D2085C478006C15FD /* UIButton+WJCategory.h */,
-				0E69095E2085C478006C15FD /* NSMutableDictionary+WJCagtegoty.m */,
-				0E69095F2085C478006C15FD /* NSObject+WJCategory.h */,
-				0E6909602085C478006C15FD /* NSMutableArray+WJMethodSwizzling.m */,
-				0E6909612085C478006C15FD /* UIColor+WJCategory.m */,
+				0E69094B2085C478006C15FD /* UIView+WJCategory.h */,
 				0E6909622085C478006C15FD /* UIView+WJCategory.m */,
+				0E69095D2085C478006C15FD /* UIButton+WJCategory.h */,
+				0E6909502085C478006C15FD /* UIButton+WJCategory.m */,
+				0E6909532085C478006C15FD /* UITextField+WJCategory.h */,
+				0E6909422085C478006C15FD /* UITextField+WJCategory.m */,
+				0E6909542085C478006C15FD /* NSArray+WJCategory.h */,
+				0E6909452085C478006C15FD /* NSArray+WJCategory.m */,
+				0E69095A2085C478006C15FD /* NSFileManager+WJCategory.h */,
+				0E6909472085C478006C15FD /* NSFileManager+WJCategory.m */,
+				0E69095B2085C478006C15FD /* UIViewController+WJMethodSwizzling.h */,
+				0E6909462085C478006C15FD /* UIViewController+WJMethodSwizzling.m */,
+				0E6909522085C478006C15FD /* UIBarButtonItem+WJCategory.h */,
+				0E69095C2085C478006C15FD /* UIBarButtonItem+WJCategory.m */,
+				0E69095F2085C478006C15FD /* NSObject+WJCategory.h */,
+				0E69094F2085C478006C15FD /* NSObject+WJCategory.m */,
+				0E6909512085C478006C15FD /* NSMutableDictionary+WJCagtegoty.h */,
+				0E69095E2085C478006C15FD /* NSMutableDictionary+WJCagtegoty.m */,
+				0E69094E2085C478006C15FD /* NSMutableArray+WJMethodSwizzling.h */,
+				0E6909602085C478006C15FD /* NSMutableArray+WJMethodSwizzling.m */,
+				0E69094D2085C478006C15FD /* UIColor+WJCategory.h */,
+				0E6909612085C478006C15FD /* UIColor+WJCategory.m */,
+				0E69094C2085C478006C15FD /* NSDictionary+WJCategoty.h */,
 				0E6909632085C478006C15FD /* NSDictionary+WJCategoty.m */,
 				0E6909BA2085EC63006C15FD /* UILabel+WJCategory.h */,
 				0E6909B92085EC63006C15FD /* UILabel+WJCategory.m */,
@@ -337,8 +334,6 @@
 			isa = PBXGroup;
 			children = (
 				0E69093F2085C478006C15FD /* Single.h */,
-				0E69091C2085C478006C15FD /* WJSwizzleMethod.h */,
-				0E69091A2085C478006C15FD /* WJSwizzleMethod.m */,
 				0E69092A2085C478006C15FD /* WJFileManager.h */,
 				0E69091B2085C478006C15FD /* WJFileManager.m */,
 				0E69091D2085C478006C15FD /* HelperUtil.m */,
@@ -630,7 +625,6 @@
 				0E6909A22085C478006C15FD /* NSDictionary+WJCategoty.m in Sources */,
 				0E690A502085EE21006C15FD /* PopoverAction.m in Sources */,
 				0E690A452085EE21006C15FD /* ALiProgressHUD.m in Sources */,
-				0E69097A2085C478006C15FD /* WJSwizzleMethod.m in Sources */,
 				0E690A3D2085EE21006C15FD /* KSGuaidViewCell.m in Sources */,
 				0EDA6C8420859F480052590C /* main.m in Sources */,
 				0E690A442085EE21006C15FD /* NSObject+ALiHUD.m in Sources */,
