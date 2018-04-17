@@ -9,5 +9,5 @@ s.platform     = :ios, '9.0'
 s.source       = {:git => 'https://github.com/WJVijay/WJDeveloperTools.git', :tag => s.version}
 s.source_files = 'WJDeveloperTools/**/*.{h,m}'
 s.requires_arc = true
-s.dependency 'SVProgressHUD', '~> 2.2.5'
+s.dependency 'SVProgressHUD', '~> 2.1.2'
 end
