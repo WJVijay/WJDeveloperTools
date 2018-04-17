@@ -46,7 +46,6 @@
 		0E6909992085C478006C15FD /* NSObject+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69094F2085C478006C15FD /* NSObject+WJCategory.m */; };
 		0E69099A2085C478006C15FD /* UIButton+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6909502085C478006C15FD /* UIButton+WJCategory.m */; };
 		0E69099B2085C478006C15FD /* UIAlertController+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6909572085C478006C15FD /* UIAlertController+WJCategory.m */; };
-		0E69099C2085C478006C15FD /* UILabel+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6909582085C478006C15FD /* UILabel+WJCategory.m */; };
 		0E69099D2085C478006C15FD /* UIBarButtonItem+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69095C2085C478006C15FD /* UIBarButtonItem+WJCategory.m */; };
 		0E69099E2085C478006C15FD /* NSMutableDictionary+WJCagtegoty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69095E2085C478006C15FD /* NSMutableDictionary+WJCagtegoty.m */; };
 		0E69099F2085C478006C15FD /* NSMutableArray+WJMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6909602085C478006C15FD /* NSMutableArray+WJMethodSwizzling.m */; };
@@ -125,7 +124,6 @@
 		0E6909462085C478006C15FD /* UIViewController+WJMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WJMethodSwizzling.m"; sourceTree = "<group>"; };
 		0E6909472085C478006C15FD /* NSFileManager+WJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WJCategory.m"; sourceTree = "<group>"; };
 		0E6909482085C478006C15FD /* NSDate+WJCategoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WJCategoryMethod.m"; sourceTree = "<group>"; };
-		0E6909492085C478006C15FD /* UILabel+WJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WJCategory.h"; sourceTree = "<group>"; };
 		0E69094A2085C478006C15FD /* UIAlertController+WJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+WJCategory.h"; sourceTree = "<group>"; };
 		0E69094B2085C478006C15FD /* UIView+WJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WJCategory.h"; sourceTree = "<group>"; };
 		0E69094C2085C478006C15FD /* NSDictionary+WJCategoty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WJCategoty.h"; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		0E6909552085C478006C15FD /* NSString+WJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WJCategory.h"; sourceTree = "<group>"; };
 		0E6909562085C478006C15FD /* UITextView+WJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WJCategory.h"; sourceTree = "<group>"; };
 		0E6909572085C478006C15FD /* UIAlertController+WJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+WJCategory.m"; sourceTree = "<group>"; };
-		0E6909582085C478006C15FD /* UILabel+WJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WJCategory.m"; sourceTree = "<group>"; };
 		0E6909592085C478006C15FD /* NSDate+WJCategoryMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WJCategoryMethod.h"; sourceTree = "<group>"; };
 		0E69095A2085C478006C15FD /* NSFileManager+WJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+WJCategory.h"; sourceTree = "<group>"; };
 		0E69095B2085C478006C15FD /* UIViewController+WJMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WJMethodSwizzling.h"; sourceTree = "<group>"; };
@@ -309,7 +306,6 @@
 				0E6909462085C478006C15FD /* UIViewController+WJMethodSwizzling.m */,
 				0E6909472085C478006C15FD /* NSFileManager+WJCategory.m */,
 				0E6909482085C478006C15FD /* NSDate+WJCategoryMethod.m */,
-				0E6909492085C478006C15FD /* UILabel+WJCategory.h */,
 				0E69094A2085C478006C15FD /* UIAlertController+WJCategory.h */,
 				0E69094B2085C478006C15FD /* UIView+WJCategory.h */,
 				0E69094C2085C478006C15FD /* NSDictionary+WJCategoty.h */,
@@ -324,7 +320,6 @@
 				0E6909552085C478006C15FD /* NSString+WJCategory.h */,
 				0E6909562085C478006C15FD /* UITextView+WJCategory.h */,
 				0E6909572085C478006C15FD /* UIAlertController+WJCategory.m */,
-				0E6909582085C478006C15FD /* UILabel+WJCategory.m */,
 				0E6909592085C478006C15FD /* NSDate+WJCategoryMethod.h */,
 				0E69095A2085C478006C15FD /* NSFileManager+WJCategory.h */,
 				0E69095B2085C478006C15FD /* UIViewController+WJMethodSwizzling.h */,
@@ -633,7 +628,6 @@
 				0EDA6C7620859F470052590C /* AppDelegate.m in Sources */,
 				0E1CD1AC2085BF2F001E1262 /* User.m in Sources */,
 				0E6909942085C478006C15FD /* NSString+WJCategory.m in Sources */,
-				0E69099C2085C478006C15FD /* UILabel+WJCategory.m in Sources */,
 				0E6909A02085C478006C15FD /* UIColor+WJCategory.m in Sources */,
 				0E6909712085C478006C15FD /* KSGuaidViewManager.m in Sources */,
 				0E6909A12085C478006C15FD /* UIView+WJCategory.m in Sources */,
