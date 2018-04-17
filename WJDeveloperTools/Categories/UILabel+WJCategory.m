@@ -10,6 +10,11 @@
 
 #define kSCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define kSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+// 屏幕适配
+#define kScreen(value) ((value) * [UIScreen mainScreen].bounds.size.width/375)
+#define hScreen(value) ((value) * ([UIScreen mainScreen].bounds.size.height)/(667))
+
 @implementation UILabel (WJCategory)
 
 + (void)showAlertViewWithTitle:(NSString *)reason subView:(UIView *)subView
