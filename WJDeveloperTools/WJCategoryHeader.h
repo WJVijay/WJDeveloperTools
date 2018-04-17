@@ -10,6 +10,7 @@
 #ifndef WJCategoryHeader_h
 #define WJCategoryHeader_h
 
+//***********外部使用***********
 #pragma mark: -常用分类-
 
 #import "UITextView+WJCategory.h"
