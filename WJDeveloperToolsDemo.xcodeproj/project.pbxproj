@@ -789,6 +789,7 @@
 				DEVELOPMENT_TEAM = 3E5EW9UDA7;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WJDeveloperToolsDemo/PrefixHeader.h";
 				INFOPLIST_FILE = WJDeveloperToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,6 +809,7 @@
 				DEVELOPMENT_TEAM = 3E5EW9UDA7;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WJDeveloperToolsDemo/PrefixHeader.h";
 				INFOPLIST_FILE = WJDeveloperToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
