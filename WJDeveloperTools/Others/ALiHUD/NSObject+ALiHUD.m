@@ -1,7 +1,8 @@
 
 
 #import "NSObject+ALiHUD.h"
-#import <SVProgressHUD.h>
+//#import <SVProgressHUD.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 #import "ALiProgressHUD.h"
 
 @implementation NSObject (ALiHUD)
