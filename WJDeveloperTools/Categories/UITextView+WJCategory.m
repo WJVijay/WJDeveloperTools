@@ -136,8 +136,8 @@ static const void *limitLengthKey = &limitLengthKey;
         if (wordCount > [self.limitLength integerValue]) {
             wordCount = [self.limitLength integerValue];
 #pragma mark -- 想提示用户输入已经超出最大字数可以打开此行代码
-                        UIAlertView *view = [[UIAlertView alloc] initWithTitle:@"超过最大字数" message:@"您已经超出了最大字数,超出部分将无法显示" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-                        [view show];
+//                        UIAlertView *view = [[UIAlertView alloc] initWithTitle:@"超过最大字数" message:@"您已经超出了最大字数,超出部分将无法显示" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+//                        [view show];
         }
         self.wordCountLabel.text = [NSString stringWithFormat:@"%ld/%@",wordCount,self.limitLength];
     }

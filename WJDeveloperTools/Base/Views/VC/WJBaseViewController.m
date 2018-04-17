@@ -92,4 +92,14 @@
 }
 
 
+-(void)screenShotAction{
+    
+    UIGraphicsBeginImageContextWithOptions(CGSizeMake(kSCREENWIDTH, kSCREENHEIGHT), NO, 0.0);
+    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    UIImageWriteToSavedPhotosAlbum(image, self, nil, nil);
+    
+}
+
 @end
