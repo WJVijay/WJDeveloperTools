@@ -14,8 +14,6 @@
 
 #import "WJTableViewController.h"
 
-#import "ClickMenuVC.h"
-
 #import "Single.h"
 
 #endif /* WJClassHeader_h */
