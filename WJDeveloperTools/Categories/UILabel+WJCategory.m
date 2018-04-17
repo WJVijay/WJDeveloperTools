@@ -7,6 +7,7 @@
 //
 
 #import "UILabel+WJCategory.h"
+#import "UIColor+WJCategory.h"
 
 #define kLabSCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define kLabSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
