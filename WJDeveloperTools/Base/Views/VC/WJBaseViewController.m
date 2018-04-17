@@ -8,12 +8,8 @@
 
 #import "WJBaseViewController.h"
 //屏幕宽高
-#define kSCREENWIDTH [UIScreen mainScreen].bounds.size.width
-#define kSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
-
-// 屏幕适配
-#define kScreen(value) ((value) * [UIScreen mainScreen].bounds.size.width/375)
-#define hScreen(value) ((value) * ([UIScreen mainScreen].bounds.size.height)/(667))
+#define kSCREENWIDTH_WJBaseViewController [UIScreen mainScreen].bounds.size.width
+#define kSCREENHEIGHT_WJBaseViewController [UIScreen mainScreen].bounds.size.height
 
 @interface WJBaseViewController ()
 
@@ -101,7 +97,7 @@
 
 -(void)screenShotAction{
     
-    UIGraphicsBeginImageContextWithOptions(CGSizeMake(kSCREENWIDTH, kSCREENHEIGHT), NO, 0.0);
+    UIGraphicsBeginImageContextWithOptions(CGSizeMake(kSCREENWIDTH_WJBaseViewController, kSCREENHEIGHT_WJBaseViewController), NO, 0.0);
     [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();

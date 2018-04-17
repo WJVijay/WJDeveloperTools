@@ -10,6 +10,7 @@
 #ifndef WJClassHeader_h
 #define WJClassHeader_h
 
+//***********导入的头文件只能被外部使用*********
 #import "WJBaseViewController.h"
 
 #import "WJTableViewController.h"

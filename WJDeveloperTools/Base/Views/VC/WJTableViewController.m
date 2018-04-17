@@ -10,12 +10,9 @@
 #import "WJDefineHeader.h"
 
 //屏幕宽高
-#define kSCREENWIDTH [UIScreen mainScreen].bounds.size.width
-#define kSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define kSCREENWIDTH_WJTableViewController [UIScreen mainScreen].bounds.size.width
+#define kSCREENHEIGHT_WJTableViewController [UIScreen mainScreen].bounds.size.height
 
-// 屏幕适配
-#define kScreen(value) ((value) * [UIScreen mainScreen].bounds.size.width/375)
-#define hScreen(value) ((value) * ([UIScreen mainScreen].bounds.size.height)/(667))
 @interface WJTableViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(strong,nonatomic)NSMutableArray                *rCellIdentifers;
@@ -29,7 +26,7 @@ static NSString *defaultCellIndentifier = @"UITableViewCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,kSCREENWIDTH, kSCREENHEIGHT)];
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,kSCREENWIDTH_WJTableViewController, kSCREENHEIGHT_WJTableViewController)];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
