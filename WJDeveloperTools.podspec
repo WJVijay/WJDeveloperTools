@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'WJDeveloperTools'
-s.version      = '2.1.1'
+s.version      = '2.1.2'
 s.summary      = '开发常用的一些小东东'
 s.homepage     = 'https://github.com/WJVijay/WJDeveloperTools'
 s.license      = 'MIT'
