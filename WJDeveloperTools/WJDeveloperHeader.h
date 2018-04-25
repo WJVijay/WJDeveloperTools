@@ -14,6 +14,4 @@
 //常用宏
 #import "WJDefineHeader.h"
 
-#import "NSObject+ALiHUD.h"
-
 #endif /* WJDeveloperHeader_h */
