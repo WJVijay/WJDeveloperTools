@@ -50,35 +50,35 @@
 
 - (void)wj_viewDidLoad {
     
-    WJLog(@"wj_viewDidLoad");
+//    WJLog(@"wj_viewDidLoad");
     [self wj_viewDidLoad];
 }
 
 - (void)wj_viewWillAppear:(BOOL)animated{
     
-    WJLog(@"wj_viewWillAppear");
+//    WJLog(@"wj_viewWillAppear");
     
     [self wj_viewWillAppear:animated];
 }
 
 - (void)wj_viewDidAppear:(BOOL)animated{
     
-    WJLog(@"wj_viewDidAppear");
+//    WJLog(@"wj_viewDidAppear");
 }
 
 - (void)wj_viewWillDisappear:(BOOL)animated{
     
-    WJLog(@"wj_viewWillDisappear");
+//    WJLog(@"wj_viewWillDisappear");
 }
 
 - (void)wj_viewDidDisappear:(BOOL)animated{
     
-    WJLog(@"wj_viewDidDisappear");
+//    WJLog(@"wj_viewDidDisappear");
 }
 
 - (void)wj_didReceiveMemoryWarning {
     
-    WJLog(@"wj_didReceiveMemoryWarning");
+//    WJLog(@"wj_didReceiveMemoryWarning");
 }
 
 
