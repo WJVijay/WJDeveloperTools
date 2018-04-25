@@ -19,7 +19,7 @@
 #import "Single.h"
 
 //等待弹窗
-#import "NSObject+ALiHUD.h"
+//#import "NSObject+ALiHUD.h"
 
 //引导页
 #import "KSGuaidViewManager.h"

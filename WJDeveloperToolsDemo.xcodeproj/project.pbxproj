@@ -209,14 +209,11 @@
 		0E6909092085C478006C15FD /* WJDeveloperTools */ = {
 			isa = PBXGroup;
 			children = (
-				0E69093D2085C478006C15FD /* WJClassHeader.h */,
-				0E69093E2085C478006C15FD /* WJDefineHeader.h */,
-				0E6909402085C478006C15FD /* WJCategoryHeader.h */,
+				0E6909702085C478006C15FD /* WJDeveloperHeader.h */,
 				0E69090A2085C478006C15FD /* Others */,
 				0E6909412085C478006C15FD /* Categories */,
 				0E6909642085C478006C15FD /* Protocols */,
 				0E6909662085C478006C15FD /* Base */,
-				0E6909702085C478006C15FD /* WJDeveloperHeader.h */,
 			);
 			path = WJDeveloperTools;
 			sourceTree = SOURCE_ROOT;
@@ -282,6 +279,9 @@
 		0E6909662085C478006C15FD /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				0E69093D2085C478006C15FD /* WJClassHeader.h */,
+				0E69093E2085C478006C15FD /* WJDefineHeader.h */,
+				0E6909402085C478006C15FD /* WJCategoryHeader.h */,
 				0E6909672085C478006C15FD /* Models */,
 				0E6909682085C478006C15FD /* Presenters */,
 				0E6909692085C478006C15FD /* Views */,
@@ -498,7 +498,6 @@
 				0EDA6C6D20859F470052590C /* Sources */,
 				0EDA6C6E20859F470052590C /* Frameworks */,
 				0EDA6C6F20859F470052590C /* Resources */,
-				13C7A65630A20B8EA43657D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -577,24 +576,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13C7A65630A20B8EA43657D3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WJDeveloperToolsDemo/Pods-WJDeveloperToolsDemo-resources.sh",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJDeveloperToolsDemo/Pods-WJDeveloperToolsDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3FC45E5F2D21C6EE37A1B0DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -801,10 +782,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WJDeveloperToolsDemo/PrefixHeader.h";
 				INFOPLIST_FILE = WJDeveloperToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.www.WJDeveloperToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -822,10 +800,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WJDeveloperToolsDemo/PrefixHeader.h";
 				INFOPLIST_FILE = WJDeveloperToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.www.WJDeveloperToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
