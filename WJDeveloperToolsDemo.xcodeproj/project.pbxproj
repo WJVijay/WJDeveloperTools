@@ -41,14 +41,6 @@
 		0E690A3B2085EE21006C15FD /* hidden@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A122085EE21006C15FD /* hidden@2x.png */; };
 		0E690A3C2085EE21006C15FD /* KSGuaidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A152085EE21006C15FD /* KSGuaidViewController.m */; };
 		0E690A3D2085EE21006C15FD /* KSGuaidViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A162085EE21006C15FD /* KSGuaidViewCell.m */; };
-		0E690A3E2085EE21006C15FD /* HUD_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A192085EE21006C15FD /* HUD_success@2x.png */; };
-		0E690A3F2085EE21006C15FD /* HUD_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A1A2085EE21006C15FD /* HUD_success@3x.png */; };
-		0E690A402085EE21006C15FD /* HUD_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A1B2085EE21006C15FD /* HUD_error@3x.png */; };
-		0E690A412085EE21006C15FD /* HUD_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A1C2085EE21006C15FD /* HUD_info@3x.png */; };
-		0E690A422085EE21006C15FD /* HUD_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A1D2085EE21006C15FD /* HUD_info@2x.png */; };
-		0E690A432085EE21006C15FD /* HUD_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A1E2085EE21006C15FD /* HUD_error@2x.png */; };
-		0E690A442085EE21006C15FD /* NSObject+ALiHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A202085EE21006C15FD /* NSObject+ALiHUD.m */; };
-		0E690A452085EE21006C15FD /* ALiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A212085EE21006C15FD /* ALiProgressHUD.m */; };
 		0E690A462085EE21006C15FD /* navigationItem_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A282085EE21006C15FD /* navigationItem_menu@2x.png */; };
 		0E690A472085EE21006C15FD /* right_menu_payMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A292085EE21006C15FD /* right_menu_payMoney@2x.png */; };
 		0E690A482085EE21006C15FD /* contacts_add_friend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E690A2A2085EE21006C15FD /* contacts_add_friend@2x.png */; };
@@ -139,16 +131,6 @@
 		0E690A142085EE21006C15FD /* KSGuaidViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSGuaidViewManager.h; sourceTree = "<group>"; };
 		0E690A152085EE21006C15FD /* KSGuaidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSGuaidViewController.m; sourceTree = "<group>"; };
 		0E690A162085EE21006C15FD /* KSGuaidViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSGuaidViewCell.m; sourceTree = "<group>"; };
-		0E690A192085EE21006C15FD /* HUD_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@2x.png"; sourceTree = "<group>"; };
-		0E690A1A2085EE21006C15FD /* HUD_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@3x.png"; sourceTree = "<group>"; };
-		0E690A1B2085EE21006C15FD /* HUD_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@3x.png"; sourceTree = "<group>"; };
-		0E690A1C2085EE21006C15FD /* HUD_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@3x.png"; sourceTree = "<group>"; };
-		0E690A1D2085EE21006C15FD /* HUD_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@2x.png"; sourceTree = "<group>"; };
-		0E690A1E2085EE21006C15FD /* HUD_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@2x.png"; sourceTree = "<group>"; };
-		0E690A1F2085EE21006C15FD /* ALiProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALiProgressHUD.h; sourceTree = "<group>"; };
-		0E690A202085EE21006C15FD /* NSObject+ALiHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ALiHUD.m"; sourceTree = "<group>"; };
-		0E690A212085EE21006C15FD /* ALiProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALiProgressHUD.m; sourceTree = "<group>"; };
-		0E690A222085EE21006C15FD /* NSObject+ALiHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ALiHUD.h"; sourceTree = "<group>"; };
 		0E690A242085EE21006C15FD /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
 		0E690A252085EE21006C15FD /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
 		0E690A262085EE21006C15FD /* PopoverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverAction.h; sourceTree = "<group>"; };
@@ -346,7 +328,6 @@
 			isa = PBXGroup;
 			children = (
 				0E690A092085EE21006C15FD /* GuidePage */,
-				0E690A172085EE21006C15FD /* ALiHUD */,
 				0E690A232085EE21006C15FD /* AppearMenu */,
 			);
 			path = Vendor;
@@ -377,31 +358,6 @@
 				0E690A122085EE21006C15FD /* hidden@2x.png */,
 			);
 			path = iamges;
-			sourceTree = "<group>";
-		};
-		0E690A172085EE21006C15FD /* ALiHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0E690A182085EE21006C15FD /* images */,
-				0E690A1F2085EE21006C15FD /* ALiProgressHUD.h */,
-				0E690A202085EE21006C15FD /* NSObject+ALiHUD.m */,
-				0E690A212085EE21006C15FD /* ALiProgressHUD.m */,
-				0E690A222085EE21006C15FD /* NSObject+ALiHUD.h */,
-			);
-			path = ALiHUD;
-			sourceTree = "<group>";
-		};
-		0E690A182085EE21006C15FD /* images */ = {
-			isa = PBXGroup;
-			children = (
-				0E690A192085EE21006C15FD /* HUD_success@2x.png */,
-				0E690A1A2085EE21006C15FD /* HUD_success@3x.png */,
-				0E690A1B2085EE21006C15FD /* HUD_error@3x.png */,
-				0E690A1C2085EE21006C15FD /* HUD_info@3x.png */,
-				0E690A1D2085EE21006C15FD /* HUD_info@2x.png */,
-				0E690A1E2085EE21006C15FD /* HUD_error@2x.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		0E690A232085EE21006C15FD /* AppearMenu */ = {
@@ -545,25 +501,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E690A422085EE21006C15FD /* HUD_info@2x.png in Resources */,
 				0E690A492085EE21006C15FD /* contacts_add_money@2x.png in Resources */,
 				0E690A472085EE21006C15FD /* right_menu_payMoney@2x.png in Resources */,
 				0E690A4D2085EE21006C15FD /* right_menu_facetoface@2x.png in Resources */,
-				0E690A3E2085EE21006C15FD /* HUD_success@2x.png in Resources */,
 				0E690A372085EE21006C15FD /* guid02.png in Resources */,
 				0E690A4A2085EE21006C15FD /* right_menu_QR@2x.png in Resources */,
 				0E690A4C2085EE21006C15FD /* contacts_add_newmessage@2x.png in Resources */,
 				0E690A382085EE21006C15FD /* guid03.png in Resources */,
 				0EDA6C8120859F480052590C /* LaunchScreen.storyboard in Resources */,
-				0E690A432085EE21006C15FD /* HUD_error@2x.png in Resources */,
 				0E690A392085EE21006C15FD /* guid04.png in Resources */,
 				0E690A4E2085EE21006C15FD /* right_menu_multichat@2x.png in Resources */,
-				0E690A3F2085EE21006C15FD /* HUD_success@3x.png in Resources */,
 				0EDA6C7E20859F480052590C /* Assets.xcassets in Resources */,
-				0E690A412085EE21006C15FD /* HUD_info@3x.png in Resources */,
 				0E690A462085EE21006C15FD /* navigationItem_menu@2x.png in Resources */,
 				0E690A3B2085EE21006C15FD /* hidden@2x.png in Resources */,
-				0E690A402085EE21006C15FD /* HUD_error@3x.png in Resources */,
 				0E690A4B2085EE21006C15FD /* right_menu_addFri@2x.png in Resources */,
 				0EDA6C7C20859F470052590C /* Main.storyboard in Resources */,
 				0E690A4F2085EE21006C15FD /* contacts_add_scan@2x.png in Resources */,
@@ -605,10 +555,8 @@
 				0E6909922085C478006C15FD /* UITextField+WJCategory.m in Sources */,
 				0E6909A22085C478006C15FD /* NSDictionary+WJCategoty.m in Sources */,
 				0E690A502085EE21006C15FD /* PopoverAction.m in Sources */,
-				0E690A452085EE21006C15FD /* ALiProgressHUD.m in Sources */,
 				0E690A3D2085EE21006C15FD /* KSGuaidViewCell.m in Sources */,
 				0EDA6C8420859F480052590C /* main.m in Sources */,
-				0E690A442085EE21006C15FD /* NSObject+ALiHUD.m in Sources */,
 				0E6909A42085C478006C15FD /* WJTableViewController.m in Sources */,
 				0E6909982085C478006C15FD /* NSDate+WJCategoryMethod.m in Sources */,
 				0E690A512085EE21006C15FD /* PopoverView.m in Sources */,
@@ -782,7 +730,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WJDeveloperToolsDemo/PrefixHeader.h";
 				INFOPLIST_FILE = WJDeveloperToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.www.WJDeveloperToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -800,7 +751,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WJDeveloperToolsDemo/PrefixHeader.h";
 				INFOPLIST_FILE = WJDeveloperToolsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangjun.www.WJDeveloperToolsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
