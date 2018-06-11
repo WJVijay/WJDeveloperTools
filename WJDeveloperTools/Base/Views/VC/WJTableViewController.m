@@ -8,6 +8,7 @@
 
 #import "WJTableViewController.h"
 #import "WJDefineHeader.h"
+#import "UITableView+WJCategory.h"
 
 //屏幕宽高
 #define kSCREENWIDTH_WJTableViewController [UIScreen mainScreen].bounds.size.width
@@ -30,6 +31,17 @@ static NSString *defaultCellIndentifier = @"UITableViewCell";
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
+}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    
+    
+    
+    NSIndexPath *path =  [self.tableView indexPathForRowAtPoint:CGPointMake(scrollView.contentOffset.x, scrollView.contentOffset.y)];
+    
+    NSLog(@"这是第%ld组,第%ld行",path.section,path.row);
+    
+    
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -56,7 +68,7 @@ static NSString *defaultCellIndentifier = @"UITableViewCell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+    [self.tableView scrollsToTop];
 }
 
 - (void)registCellWithcellNameArr:(NSArray <NSString *>*)cellName WithSelf:(Class)selfClass{

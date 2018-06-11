@@ -7,10 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0F86312094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0E0F86322094710F000F85E7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86212094710F000F85E7 /* ViewController+MASAdditions.m */; };
+		0E0F86332094710F000F85E7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86252094710F000F85E7 /* MASCompositeConstraint.m */; };
+		0E0F86342094710F000F85E7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86262094710F000F85E7 /* MASConstraintMaker.m */; };
+		0E0F86352094710F000F85E7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86272094710F000F85E7 /* MASLayoutConstraint.m */; };
+		0E0F86362094710F000F85E7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86282094710F000F85E7 /* NSArray+MASAdditions.m */; };
+		0E0F86372094710F000F85E7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86292094710F000F85E7 /* View+MASAdditions.m */; };
+		0E0F86382094710F000F85E7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F862C2094710F000F85E7 /* MASConstraint.m */; };
+		0E0F86392094710F000F85E7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F862E2094710F000F85E7 /* MASViewConstraint.m */; };
+		0E0F863A2094710F000F85E7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F862F2094710F000F85E7 /* MASViewAttribute.m */; };
+		0E0F863B2094710F000F85E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F86302094710F000F85E7 /* Info.plist */; };
 		0E1CD19A2085A10A001E1262 /* HUBDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1942085A10A001E1262 /* HUBDetailVC.m */; };
 		0E1CD19B2085A10A001E1262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1972085A10A001E1262 /* ViewController.m */; };
 		0E1CD19C2085A10A001E1262 /* ClickMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1992085A10A001E1262 /* ClickMenuVC.m */; };
 		0E1CD1AC2085BF2F001E1262 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CD1AB2085BF2F001E1262 /* User.m */; };
+		0E27F37920B67A7B00FF950B /* UITableView+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E27F37820B67A7B00FF950B /* UITableView+WJCategory.m */; };
+		0E2F2E832099BC9300AD0783 /* TYLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F2E822099BC9300AD0783 /* TYLabelCell.m */; };
+		0E3E6BEE20B7D96300F082AA /* ChangColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E6BED20B7D96300F082AA /* ChangColorVC.m */; };
+		0E3E6BF120B7DA2D00F082AA /* WHGradientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E6BF020B7DA2D00F082AA /* WHGradientHelper.m */; };
+		0E3E6BF420B7DAFD00F082AA /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E6BF220B7DAFC00F082AA /* MoreViewController.m */; };
+		0E3E6BF820B7DBE000F082AA /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E6BF620B7DBE000F082AA /* 11.png */; };
+		0E3E6BF920B7DBE000F082AA /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3E6BF720B7DBE000F082AA /* 22.png */; };
+		0E3E6C1520B7E42C00F082AA /* SDAutoLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E6C1420B7E42C00F082AA /* SDAutoLayoutVC.m */; };
 		0E69097B2085C478006C15FD /* WJFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69091B2085C478006C15FD /* WJFileManager.m */; };
 		0E69097C2085C478006C15FD /* HelperUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E69091D2085C478006C15FD /* HelperUtil.m */; };
 		0E6909922085C478006C15FD /* UITextField+WJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6909422085C478006C15FD /* UITextField+WJCategory.m */; };
@@ -54,6 +73,20 @@
 		0E690A502085EE21006C15FD /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A322085EE21006C15FD /* PopoverAction.m */; };
 		0E690A512085EE21006C15FD /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A332085EE21006C15FD /* PopoverView.m */; };
 		0E690A522085EE21006C15FD /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E690A342085EE21006C15FD /* PopoverViewCell.m */; };
+		0E6EDB952099B6B000E3DF69 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB822099B6B000E3DF69 /* TYLinkTextStorage.m */; };
+		0E6EDB962099B6B000E3DF69 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB832099B6B000E3DF69 /* TYDrawStorage.m */; };
+		0E6EDB972099B6B000E3DF69 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB842099B6B000E3DF69 /* TYViewStorage.m */; };
+		0E6EDB982099B6B000E3DF69 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB852099B6B000E3DF69 /* TYImageStorage.m */; };
+		0E6EDB992099B6B000E3DF69 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB872099B6B000E3DF69 /* NSMutableAttributedString+TY.m */; };
+		0E6EDB9A2099B6B000E3DF69 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB882099B6B000E3DF69 /* TYImageCache.m */; };
+		0E6EDB9B2099B6B000E3DF69 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB892099B6B000E3DF69 /* TYTextStorage.m */; };
+		0E6EDB9C2099B6B000E3DF69 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB8A2099B6B000E3DF69 /* TYAttributedLabel.m */; };
+		0E6EDB9D2099B6B000E3DF69 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB912099B6B000E3DF69 /* TYTextContainer+Extended.m */; };
+		0E6EDB9E2099B6B000E3DF69 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDB942099B6B000E3DF69 /* TYTextContainer.m */; };
+		0E6EDBA12099B70600E3DF69 /* TYLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EDBA02099B70600E3DF69 /* TYLabelViewController.m */; };
+		0EB8789420CE07410066D29C /* WJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8789320CE07410066D29C /* WJLabel.m */; };
+		0EB8789720CE074E0066D29C /* UILabel+WJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8789620CE074E0066D29C /* UILabel+WJLabel.m */; };
+		0EB8789A20CE07890066D29C /* LabelShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8789920CE07890066D29C /* LabelShowVC.m */; };
 		0EDA6C7620859F470052590C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA6C7520859F470052590C /* AppDelegate.m */; };
 		0EDA6C7C20859F470052590C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6C7A20859F470052590C /* Main.storyboard */; };
 		0EDA6C7E20859F480052590C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6C7D20859F480052590C /* Assets.xcassets */; };
@@ -63,6 +96,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0F86172094710F000F85E7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0E0F86192094710F000F85E7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0E0F861A2094710F000F85E7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		0E0F861B2094710F000F85E7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0E0F861C2094710F000F85E7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		0E0F861D2094710F000F85E7 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0E0F861E2094710F000F85E7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0E0F861F2094710F000F85E7 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		0E0F86202094710F000F85E7 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		0E0F86212094710F000F85E7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0E0F86222094710F000F85E7 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		0E0F86232094710F000F85E7 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0E0F86242094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0E0F86252094710F000F85E7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0E0F86262094710F000F85E7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0E0F86272094710F000F85E7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0E0F86282094710F000F85E7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0E0F86292094710F000F85E7 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0E0F862A2094710F000F85E7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0E0F862B2094710F000F85E7 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0E0F862C2094710F000F85E7 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0E0F862D2094710F000F85E7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0E0F862E2094710F000F85E7 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		0E0F862F2094710F000F85E7 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0E0F86302094710F000F85E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E1CD1942085A10A001E1262 /* HUBDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUBDetailVC.m; sourceTree = "<group>"; };
 		0E1CD1952085A10A001E1262 /* HUBDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUBDetailVC.h; sourceTree = "<group>"; };
 		0E1CD1962085A10A001E1262 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -71,6 +130,21 @@
 		0E1CD1992085A10A001E1262 /* ClickMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickMenuVC.m; sourceTree = "<group>"; };
 		0E1CD1AA2085BF2F001E1262 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		0E1CD1AB2085BF2F001E1262 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0E27F37720B67A7B00FF950B /* UITableView+WJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+WJCategory.h"; sourceTree = "<group>"; };
+		0E27F37820B67A7B00FF950B /* UITableView+WJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WJCategory.m"; sourceTree = "<group>"; };
+		0E2F2E812099BC9300AD0783 /* TYLabelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLabelCell.h; sourceTree = "<group>"; };
+		0E2F2E822099BC9300AD0783 /* TYLabelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLabelCell.m; sourceTree = "<group>"; };
+		0E3E6BEC20B7D96300F082AA /* ChangColorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangColorVC.h; sourceTree = "<group>"; };
+		0E3E6BED20B7D96300F082AA /* ChangColorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangColorVC.m; sourceTree = "<group>"; };
+		0E3E6BEF20B7DA2C00F082AA /* WHGradientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelper.h; sourceTree = "<group>"; };
+		0E3E6BF020B7DA2D00F082AA /* WHGradientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelper.m; sourceTree = "<group>"; };
+		0E3E6BF220B7DAFC00F082AA /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		0E3E6BF320B7DAFD00F082AA /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		0E3E6BF520B7DB1700F082AA /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		0E3E6BF620B7DBE000F082AA /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		0E3E6BF720B7DBE000F082AA /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		0E3E6C1320B7E42C00F082AA /* SDAutoLayoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAutoLayoutVC.h; sourceTree = "<group>"; };
+		0E3E6C1420B7E42C00F082AA /* SDAutoLayoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAutoLayoutVC.m; sourceTree = "<group>"; };
 		0E6909192085C478006C15FD /* HelperUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperUtil.h; sourceTree = "<group>"; };
 		0E69091B2085C478006C15FD /* WJFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFileManager.m; sourceTree = "<group>"; };
 		0E69091D2085C478006C15FD /* HelperUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperUtil.m; sourceTree = "<group>"; };
@@ -147,7 +221,35 @@
 		0E690A322085EE21006C15FD /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
 		0E690A332085EE21006C15FD /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
 		0E690A342085EE21006C15FD /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
+		0E6EDB812099B6B000E3DF69 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		0E6EDB822099B6B000E3DF69 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		0E6EDB832099B6B000E3DF69 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		0E6EDB842099B6B000E3DF69 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		0E6EDB852099B6B000E3DF69 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		0E6EDB862099B6B000E3DF69 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		0E6EDB872099B6B000E3DF69 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		0E6EDB882099B6B000E3DF69 /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
+		0E6EDB892099B6B000E3DF69 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		0E6EDB8A2099B6B000E3DF69 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		0E6EDB8B2099B6B000E3DF69 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		0E6EDB8C2099B6B000E3DF69 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		0E6EDB8D2099B6B000E3DF69 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		0E6EDB8E2099B6B000E3DF69 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		0E6EDB8F2099B6B000E3DF69 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		0E6EDB902099B6B000E3DF69 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		0E6EDB912099B6B000E3DF69 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		0E6EDB922099B6B000E3DF69 /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
+		0E6EDB932099B6B000E3DF69 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		0E6EDB942099B6B000E3DF69 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+		0E6EDB9F2099B70600E3DF69 /* TYLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLabelViewController.h; sourceTree = "<group>"; };
+		0E6EDBA02099B70600E3DF69 /* TYLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLabelViewController.m; sourceTree = "<group>"; };
 		0E7F8BAF79CF58C001DFD533 /* Pods-WJDeveloperToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJDeveloperToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJDeveloperToolsDemo/Pods-WJDeveloperToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0EB8789220CE07410066D29C /* WJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLabel.h; sourceTree = "<group>"; };
+		0EB8789320CE07410066D29C /* WJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLabel.m; sourceTree = "<group>"; };
+		0EB8789520CE074E0066D29C /* UILabel+WJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WJLabel.h"; sourceTree = "<group>"; };
+		0EB8789620CE074E0066D29C /* UILabel+WJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WJLabel.m"; sourceTree = "<group>"; };
+		0EB8789820CE07890066D29C /* LabelShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelShowVC.h; sourceTree = "<group>"; };
+		0EB8789920CE07890066D29C /* LabelShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelShowVC.m; sourceTree = "<group>"; };
 		0EDA6C7120859F470052590C /* WJDeveloperToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJDeveloperToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EDA6C7420859F470052590C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EDA6C7520859F470052590C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,19 +275,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0F86162094710F000F85E7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F86172094710F000F85E7 /* MASCompositeConstraint.h */,
+				0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0E0F86192094710F000F85E7 /* MASConstraint+Private.h */,
+				0E0F861A2094710F000F85E7 /* MASLayoutConstraint.h */,
+				0E0F861B2094710F000F85E7 /* NSArray+MASShorthandAdditions.h */,
+				0E0F861C2094710F000F85E7 /* MASConstraintMaker.h */,
+				0E0F861D2094710F000F85E7 /* View+MASAdditions.h */,
+				0E0F861E2094710F000F85E7 /* NSArray+MASAdditions.h */,
+				0E0F861F2094710F000F85E7 /* MASUtilities.h */,
+				0E0F86202094710F000F85E7 /* MASViewAttribute.h */,
+				0E0F86212094710F000F85E7 /* ViewController+MASAdditions.m */,
+				0E0F86222094710F000F85E7 /* MASViewConstraint.h */,
+				0E0F86232094710F000F85E7 /* MASConstraint.h */,
+				0E0F86242094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0E0F86252094710F000F85E7 /* MASCompositeConstraint.m */,
+				0E0F86262094710F000F85E7 /* MASConstraintMaker.m */,
+				0E0F86272094710F000F85E7 /* MASLayoutConstraint.m */,
+				0E0F86282094710F000F85E7 /* NSArray+MASAdditions.m */,
+				0E0F86292094710F000F85E7 /* View+MASAdditions.m */,
+				0E0F862A2094710F000F85E7 /* View+MASShorthandAdditions.h */,
+				0E0F862B2094710F000F85E7 /* Masonry.h */,
+				0E0F862C2094710F000F85E7 /* MASConstraint.m */,
+				0E0F862D2094710F000F85E7 /* ViewController+MASAdditions.h */,
+				0E0F862E2094710F000F85E7 /* MASViewConstraint.m */,
+				0E0F862F2094710F000F85E7 /* MASViewAttribute.m */,
+				0E0F86302094710F000F85E7 /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		0E1CD1932085A0E5001E1262 /* VCS */ = {
 			isa = PBXGroup;
 			children = (
+				0E1CD1962085A10A001E1262 /* ViewController.h */,
+				0E1CD1972085A10A001E1262 /* ViewController.m */,
 				0E1CD1982085A10A001E1262 /* ClickMenuVC.h */,
 				0E1CD1992085A10A001E1262 /* ClickMenuVC.m */,
 				0E1CD1952085A10A001E1262 /* HUBDetailVC.h */,
 				0E1CD1942085A10A001E1262 /* HUBDetailVC.m */,
-				0E1CD1962085A10A001E1262 /* ViewController.h */,
-				0E1CD1972085A10A001E1262 /* ViewController.m */,
+				0E6EDB9F2099B70600E3DF69 /* TYLabelViewController.h */,
+				0E6EDBA02099B70600E3DF69 /* TYLabelViewController.m */,
+				0E3E6BEC20B7D96300F082AA /* ChangColorVC.h */,
+				0E3E6BED20B7D96300F082AA /* ChangColorVC.m */,
+				0E3E6BF320B7DAFD00F082AA /* MoreViewController.h */,
+				0E3E6BF220B7DAFC00F082AA /* MoreViewController.m */,
+				0E3E6C1320B7E42C00F082AA /* SDAutoLayoutVC.h */,
+				0E3E6C1420B7E42C00F082AA /* SDAutoLayoutVC.m */,
+				0EB8789820CE07890066D29C /* LabelShowVC.h */,
+				0EB8789920CE07890066D29C /* LabelShowVC.m */,
+			);
+			path = VCS;
+			sourceTree = "<group>";
+		};
+		0E3E6BE720B7D82700F082AA /* 渐变色 */ = {
+			isa = PBXGroup;
+			children = (
+				0E3E6BF520B7DB1700F082AA /* Globals.h */,
+				0E3E6BF620B7DBE000F082AA /* 11.png */,
+				0E3E6BF720B7DBE000F082AA /* 22.png */,
+				0E3E6BEF20B7DA2C00F082AA /* WHGradientHelper.h */,
+				0E3E6BF020B7DA2D00F082AA /* WHGradientHelper.m */,
+			);
+			path = "渐变色";
+			sourceTree = "<group>";
+		};
+		0E3E6BE920B7D8CF00F082AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E2F2E812099BC9300AD0783 /* TYLabelCell.h */,
+				0E2F2E822099BC9300AD0783 /* TYLabelCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E3E6BEA20B7D8DD00F082AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E3E6BEB20B7D8FD00F082AA /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				0E1CD1AA2085BF2F001E1262 /* User.h */,
 				0E1CD1AB2085BF2F001E1262 /* User.m */,
 			);
-			path = VCS;
+			path = Others;
 			sourceTree = "<group>";
 		};
 		0E6909092085C478006C15FD /* WJDeveloperTools */ = {
@@ -246,6 +426,8 @@
 				0E6909632085C478006C15FD /* NSDictionary+WJCategoty.m */,
 				0E6909BA2085EC63006C15FD /* UILabel+WJCategory.h */,
 				0E6909B92085EC63006C15FD /* UILabel+WJCategory.m */,
+				0E27F37720B67A7B00FF950B /* UITableView+WJCategory.h */,
+				0E27F37820B67A7B00FF950B /* UITableView+WJCategory.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -297,10 +479,10 @@
 		0E69096A2085C478006C15FD /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				0E69096B2085C478006C15FD /* WJTableViewController.h */,
-				0E69096C2085C478006C15FD /* WJBaseViewController.m */,
-				0E69096D2085C478006C15FD /* WJTableViewController.m */,
 				0E69096E2085C478006C15FD /* WJBaseViewController.h */,
+				0E69096C2085C478006C15FD /* WJBaseViewController.m */,
+				0E69096B2085C478006C15FD /* WJTableViewController.h */,
+				0E69096D2085C478006C15FD /* WJTableViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -320,6 +502,10 @@
 				0E69091B2085C478006C15FD /* WJFileManager.m */,
 				0E69091D2085C478006C15FD /* HelperUtil.m */,
 				0E6909192085C478006C15FD /* HelperUtil.h */,
+				0EB8789220CE07410066D29C /* WJLabel.h */,
+				0EB8789320CE07410066D29C /* WJLabel.m */,
+				0EB8789520CE074E0066D29C /* UILabel+WJLabel.h */,
+				0EB8789620CE074E0066D29C /* UILabel+WJLabel.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -391,6 +577,33 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		0E6EDB802099B6B000E3DF69 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0E6EDB812099B6B000E3DF69 /* TYAttributedLabel.h */,
+				0E6EDB822099B6B000E3DF69 /* TYLinkTextStorage.m */,
+				0E6EDB832099B6B000E3DF69 /* TYDrawStorage.m */,
+				0E6EDB842099B6B000E3DF69 /* TYViewStorage.m */,
+				0E6EDB852099B6B000E3DF69 /* TYImageStorage.m */,
+				0E6EDB862099B6B000E3DF69 /* TYTextContainer.h */,
+				0E6EDB872099B6B000E3DF69 /* NSMutableAttributedString+TY.m */,
+				0E6EDB882099B6B000E3DF69 /* TYImageCache.m */,
+				0E6EDB892099B6B000E3DF69 /* TYTextStorage.m */,
+				0E6EDB8A2099B6B000E3DF69 /* TYAttributedLabel.m */,
+				0E6EDB8B2099B6B000E3DF69 /* TYLinkTextStorage.h */,
+				0E6EDB8C2099B6B000E3DF69 /* TYTextStorageProtocol.h */,
+				0E6EDB8D2099B6B000E3DF69 /* TYViewStorage.h */,
+				0E6EDB8E2099B6B000E3DF69 /* TYImageStorage.h */,
+				0E6EDB8F2099B6B000E3DF69 /* TYDrawStorage.h */,
+				0E6EDB902099B6B000E3DF69 /* TYTextStorage.h */,
+				0E6EDB912099B6B000E3DF69 /* TYTextContainer+Extended.m */,
+				0E6EDB922099B6B000E3DF69 /* TYImageCache.h */,
+				0E6EDB932099B6B000E3DF69 /* NSMutableAttributedString+TY.h */,
+				0E6EDB942099B6B000E3DF69 /* TYTextContainer.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
 		0EDA6C6820859F470052590C = {
 			isa = PBXGroup;
 			children = (
@@ -412,10 +625,16 @@
 		0EDA6C7320859F470052590C /* WJDeveloperToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0E6909092085C478006C15FD /* WJDeveloperTools */,
-				0E1CD1932085A0E5001E1262 /* VCS */,
 				0EDA6C7420859F470052590C /* AppDelegate.h */,
 				0EDA6C7520859F470052590C /* AppDelegate.m */,
+				0E6909092085C478006C15FD /* WJDeveloperTools */,
+				0E1CD1932085A0E5001E1262 /* VCS */,
+				0E3E6BEB20B7D8FD00F082AA /* Others */,
+				0E3E6BEA20B7D8DD00F082AA /* Model */,
+				0E3E6BE920B7D8CF00F082AA /* View */,
+				0E3E6BE720B7D82700F082AA /* 渐变色 */,
+				0E6EDB802099B6B000E3DF69 /* TYAttributedLabel */,
+				0E0F86162094710F000F85E7 /* Masonry */,
 				0EDA6C7A20859F470052590C /* Main.storyboard */,
 				0EDA6C7D20859F480052590C /* Assets.xcassets */,
 				0EDA6C7F20859F480052590C /* LaunchScreen.storyboard */,
@@ -508,7 +727,9 @@
 				0E690A4A2085EE21006C15FD /* right_menu_QR@2x.png in Resources */,
 				0E690A4C2085EE21006C15FD /* contacts_add_newmessage@2x.png in Resources */,
 				0E690A382085EE21006C15FD /* guid03.png in Resources */,
+				0E3E6BF920B7DBE000F082AA /* 22.png in Resources */,
 				0EDA6C8120859F480052590C /* LaunchScreen.storyboard in Resources */,
+				0E0F863B2094710F000F85E7 /* Info.plist in Resources */,
 				0E690A392085EE21006C15FD /* guid04.png in Resources */,
 				0E690A4E2085EE21006C15FD /* right_menu_multichat@2x.png in Resources */,
 				0EDA6C7E20859F480052590C /* Assets.xcassets in Resources */,
@@ -519,6 +740,7 @@
 				0E690A4F2085EE21006C15FD /* contacts_add_scan@2x.png in Resources */,
 				0E690A362085EE21006C15FD /* guid01.png in Resources */,
 				0E690A3A2085EE21006C15FD /* hidden@3x.png in Resources */,
+				0E3E6BF820B7DBE000F082AA /* 11.png in Resources */,
 				0E690A482085EE21006C15FD /* contacts_add_friend@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,9 +774,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E69099D2085C478006C15FD /* UIBarButtonItem+WJCategory.m in Sources */,
+				0E6EDB972099B6B000E3DF69 /* TYViewStorage.m in Sources */,
+				0E6EDB9A2099B6B000E3DF69 /* TYImageCache.m in Sources */,
 				0E6909922085C478006C15FD /* UITextField+WJCategory.m in Sources */,
+				0E6EDBA12099B70600E3DF69 /* TYLabelViewController.m in Sources */,
+				0E0F86362094710F000F85E7 /* NSArray+MASAdditions.m in Sources */,
 				0E6909A22085C478006C15FD /* NSDictionary+WJCategoty.m in Sources */,
 				0E690A502085EE21006C15FD /* PopoverAction.m in Sources */,
+				0E0F86332094710F000F85E7 /* MASCompositeConstraint.m in Sources */,
 				0E690A3D2085EE21006C15FD /* KSGuaidViewCell.m in Sources */,
 				0EDA6C8420859F480052590C /* main.m in Sources */,
 				0E6909A42085C478006C15FD /* WJTableViewController.m in Sources */,
@@ -562,26 +789,51 @@
 				0E690A512085EE21006C15FD /* PopoverView.m in Sources */,
 				0E6909932085C478006C15FD /* UITextView+WJCategory.m in Sources */,
 				0E69099E2085C478006C15FD /* NSMutableDictionary+WJCagtegoty.m in Sources */,
+				0E0F86322094710F000F85E7 /* ViewController+MASAdditions.m in Sources */,
 				0E1CD19B2085A10A001E1262 /* ViewController.m in Sources */,
+				0EB8789420CE07410066D29C /* WJLabel.m in Sources */,
+				0E6EDB9E2099B6B000E3DF69 /* TYTextContainer.m in Sources */,
 				0E6909952085C478006C15FD /* NSArray+WJCategory.m in Sources */,
+				0E6EDB9D2099B6B000E3DF69 /* TYTextContainer+Extended.m in Sources */,
+				0E0F86312094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0E3E6BF420B7DAFD00F082AA /* MoreViewController.m in Sources */,
 				0E69097C2085C478006C15FD /* HelperUtil.m in Sources */,
+				0E6EDB962099B6B000E3DF69 /* TYDrawStorage.m in Sources */,
 				0E69099B2085C478006C15FD /* UIAlertController+WJCategory.m in Sources */,
 				0E69097B2085C478006C15FD /* WJFileManager.m in Sources */,
 				0E69099A2085C478006C15FD /* UIButton+WJCategory.m in Sources */,
+				0E0F863A2094710F000F85E7 /* MASViewAttribute.m in Sources */,
 				0E6909A32085C478006C15FD /* WJBaseViewController.m in Sources */,
+				0E3E6C1520B7E42C00F082AA /* SDAutoLayoutVC.m in Sources */,
+				0E6EDB952099B6B000E3DF69 /* TYLinkTextStorage.m in Sources */,
 				0EDA6C7620859F470052590C /* AppDelegate.m in Sources */,
+				0E27F37920B67A7B00FF950B /* UITableView+WJCategory.m in Sources */,
+				0E6EDB982099B6B000E3DF69 /* TYImageStorage.m in Sources */,
 				0E1CD1AC2085BF2F001E1262 /* User.m in Sources */,
+				0E0F86382094710F000F85E7 /* MASConstraint.m in Sources */,
 				0E6909942085C478006C15FD /* NSString+WJCategory.m in Sources */,
+				0E0F86352094710F000F85E7 /* MASLayoutConstraint.m in Sources */,
+				0EB8789A20CE07890066D29C /* LabelShowVC.m in Sources */,
+				0EB8789720CE074E0066D29C /* UILabel+WJLabel.m in Sources */,
 				0E6909A02085C478006C15FD /* UIColor+WJCategory.m in Sources */,
+				0E3E6BF120B7DA2D00F082AA /* WHGradientHelper.m in Sources */,
 				0E6909A12085C478006C15FD /* UIView+WJCategory.m in Sources */,
+				0E0F86372094710F000F85E7 /* View+MASAdditions.m in Sources */,
 				0E69099F2085C478006C15FD /* NSMutableArray+WJMethodSwizzling.m in Sources */,
+				0E0F86342094710F000F85E7 /* MASConstraintMaker.m in Sources */,
 				0E6909992085C478006C15FD /* NSObject+WJCategory.m in Sources */,
 				0E6909972085C478006C15FD /* NSFileManager+WJCategory.m in Sources */,
 				0E690A352085EE21006C15FD /* KSGuaidViewManager.m in Sources */,
 				0E690A522085EE21006C15FD /* PopoverViewCell.m in Sources */,
 				0E1CD19C2085A10A001E1262 /* ClickMenuVC.m in Sources */,
+				0E2F2E832099BC9300AD0783 /* TYLabelCell.m in Sources */,
+				0E6EDB9B2099B6B000E3DF69 /* TYTextStorage.m in Sources */,
 				0E6909962085C478006C15FD /* UIViewController+WJMethodSwizzling.m in Sources */,
+				0E6EDB992099B6B000E3DF69 /* NSMutableAttributedString+TY.m in Sources */,
 				0E690A3C2085EE21006C15FD /* KSGuaidViewController.m in Sources */,
+				0E6EDB9C2099B6B000E3DF69 /* TYAttributedLabel.m in Sources */,
+				0E3E6BEE20B7D96300F082AA /* ChangColorVC.m in Sources */,
+				0E0F86392094710F000F85E7 /* MASViewConstraint.m in Sources */,
 				0E1CD19A2085A10A001E1262 /* HUBDetailVC.m in Sources */,
 				0E6909BB2085EC63006C15FD /* UILabel+WJCategory.m in Sources */,
 			);

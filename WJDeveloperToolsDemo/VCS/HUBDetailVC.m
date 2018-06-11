@@ -24,6 +24,18 @@
     
     self.listArray = @[@"type11111",@"type22222",@"type333333",@"type444444",@"type555555",@"type666666"];
     
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    return 15;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    
+    return 60;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

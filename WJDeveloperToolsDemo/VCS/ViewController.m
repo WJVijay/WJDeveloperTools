@@ -11,10 +11,12 @@
 #import "HUBDetailVC.h"
 #import "ClickMenuVC.h"
 #import "User.h"
-
+#import "TYLabelViewController.h"
+#import "ChangColorVC.h"
+#import "SDAutoLayoutVC.h"
+#import "LabelShowVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-
 
 
 @end
@@ -24,11 +26,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.listArray = @[@"加载弹窗",@"点击出现菜单"];
-    
+    self.listArray = @[@"加载弹窗",@"点击出现菜单",@"TYLabel",@"渐变色",@"sd_autoLayout",@"文字展开收起"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
     
     return self.listArray.count;
 }
@@ -39,7 +41,6 @@
     if(cell == nil){
         
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:self.defaultCellIndentifier];
-        
     }
     cell.textLabel.text = self.listArray[indexPath.row];
     return cell;
@@ -57,21 +58,26 @@
         
         ClickMenuVC *mVC = [[ClickMenuVC alloc]init];
         [self.navigationController pushViewController:mVC animated:YES];
+    }else if (indexPath.row == 2){
+        
+        TYLabelViewController *mVC = [[TYLabelViewController alloc]init];
+        [self.navigationController pushViewController:mVC animated:YES];
+    }else if (indexPath.row == 3){
+        
+        ChangColorVC *vc = [[ChangColorVC alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 4){
+        SDAutoLayoutVC * vc = [[SDAutoLayoutVC alloc]init];
+        vc.view.backgroundColor = [UIColor whiteColor];
+         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 5){
+        
+        LabelShowVC * vc = [[LabelShowVC alloc]init];
+        vc.view.backgroundColor = [UIColor whiteColor];
+        [self.navigationController pushViewController:vc animated:YES];
     }
-   
-    
 }
 
-
-
-
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
