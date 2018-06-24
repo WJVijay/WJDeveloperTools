@@ -15,6 +15,7 @@
 #import "ChangColorVC.h"
 #import "SDAutoLayoutVC.h"
 #import "LabelShowVC.h"
+#import "CalendarScrollVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -26,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.listArray = @[@"加载弹窗",@"点击出现菜单",@"TYLabel",@"渐变色",@"sd_autoLayout",@"文字展开收起"];
+    self.listArray = @[@"加载弹窗",@"点击出现菜单",@"TYLabel",@"渐变色",@"sd_autoLayout",@"文字展开收起",@"滚动日历"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -75,6 +76,12 @@
         LabelShowVC * vc = [[LabelShowVC alloc]init];
         vc.view.backgroundColor = [UIColor whiteColor];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 6){
+        
+        CalendarScrollVC * vc = [[CalendarScrollVC alloc]init];
+        vc.view.backgroundColor = [UIColor whiteColor];
+        [self.navigationController pushViewController:vc animated:YES];
+        
     }
 }
 

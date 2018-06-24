@@ -14,7 +14,7 @@
 #define kSCREENWIDTH_WJTableViewController [UIScreen mainScreen].bounds.size.width
 #define kSCREENHEIGHT_WJTableViewController [UIScreen mainScreen].bounds.size.height
 
-@interface WJTableViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface WJTableViewController ()
 
 @property(strong,nonatomic)NSMutableArray                *rCellIdentifers;
 
@@ -39,7 +39,7 @@ static NSString *defaultCellIndentifier = @"UITableViewCell";
     
     NSIndexPath *path =  [self.tableView indexPathForRowAtPoint:CGPointMake(scrollView.contentOffset.x, scrollView.contentOffset.y)];
     
-    NSLog(@"这是第%ld组,第%ld行",path.section,path.row);
+//    NSLog(@"这是第%ld组,第%ld行",path.section,path.row);
     
     
 }

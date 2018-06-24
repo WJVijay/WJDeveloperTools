@@ -8,7 +8,7 @@
 
 #import "WJBaseViewController.h"
 
-@interface WJTableViewController : WJBaseViewController
+@interface WJTableViewController : WJBaseViewController <UITableViewDelegate,UITableViewDataSource>
 
 /**
  tableiView
