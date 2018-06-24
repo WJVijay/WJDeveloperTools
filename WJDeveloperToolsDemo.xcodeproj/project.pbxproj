@@ -110,6 +110,8 @@
 		0EDA6C7E20859F480052590C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6C7D20859F480052590C /* Assets.xcassets */; };
 		0EDA6C8120859F480052590C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA6C7F20859F480052590C /* LaunchScreen.storyboard */; };
 		0EDA6C8420859F480052590C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA6C8320859F480052590C /* main.m */; };
+		0EF3A2A620DFBE5F00DD4AD7 /* SilederVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3A2A520DFBE5F00DD4AD7 /* SilederVCViewController.m */; };
+		0EF3A2AB20DFBEC000DD4AD7 /* TTRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3A2A920DFBEC000DD4AD7 /* TTRangeSlider.m */; };
 		4E51567E0B4E42906C29CADF /* libPods-WJDeveloperToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE1EE836209EE576308E66C /* libPods-WJDeveloperToolsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -312,6 +314,11 @@
 		0EDA6C8220859F480052590C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EDA6C8320859F480052590C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EDA6C8A20859F710052590C /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		0EF3A2A420DFBE5F00DD4AD7 /* SilederVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SilederVCViewController.h; sourceTree = "<group>"; };
+		0EF3A2A520DFBE5F00DD4AD7 /* SilederVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilederVCViewController.m; sourceTree = "<group>"; };
+		0EF3A2A820DFBEC000DD4AD7 /* TTRangeSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRangeSliderDelegate.h; sourceTree = "<group>"; };
+		0EF3A2A920DFBEC000DD4AD7 /* TTRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRangeSlider.m; sourceTree = "<group>"; };
+		0EF3A2AA20DFBEC000DD4AD7 /* TTRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRangeSlider.h; sourceTree = "<group>"; };
 		AAD955E7784736540EAF2F13 /* Pods-WJDeveloperToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJDeveloperToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJDeveloperToolsDemo/Pods-WJDeveloperToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE1EE836209EE576308E66C /* libPods-WJDeveloperToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJDeveloperToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -404,6 +411,7 @@
 		0E1CD1932085A0E5001E1262 /* VCS */ = {
 			isa = PBXGroup;
 			children = (
+				0EF3A2A320DFBE1E00DD4AD7 /* 超轻量级silder */,
 				0E1CD1962085A10A001E1262 /* ViewController.h */,
 				0E1CD1972085A10A001E1262 /* ViewController.m */,
 				0E1CD1982085A10A001E1262 /* ClickMenuVC.h */,
@@ -741,6 +749,26 @@
 			path = WJDeveloperToolsDemo;
 			sourceTree = "<group>";
 		};
+		0EF3A2A320DFBE1E00DD4AD7 /* 超轻量级silder */ = {
+			isa = PBXGroup;
+			children = (
+				0EF3A2A720DFBEC000DD4AD7 /* Classes */,
+				0EF3A2A420DFBE5F00DD4AD7 /* SilederVCViewController.h */,
+				0EF3A2A520DFBE5F00DD4AD7 /* SilederVCViewController.m */,
+			);
+			path = "超轻量级silder";
+			sourceTree = "<group>";
+		};
+		0EF3A2A720DFBEC000DD4AD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0EF3A2A820DFBEC000DD4AD7 /* TTRangeSliderDelegate.h */,
+				0EF3A2A920DFBEC000DD4AD7 /* TTRangeSlider.m */,
+				0EF3A2AA20DFBEC000DD4AD7 /* TTRangeSlider.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6211EE769D9B8E35CB63DBFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -882,6 +910,7 @@
 				0E690A502085EE21006C15FD /* PopoverAction.m in Sources */,
 				0E0F86332094710F000F85E7 /* MASCompositeConstraint.m in Sources */,
 				0E690A3D2085EE21006C15FD /* KSGuaidViewCell.m in Sources */,
+				0EF3A2AB20DFBEC000DD4AD7 /* TTRangeSlider.m in Sources */,
 				0E11818C20D4E31E0022E705 /* FSCalendarWeekdayView.m in Sources */,
 				0EDA6C8420859F480052590C /* main.m in Sources */,
 				0E6909A42085C478006C15FD /* WJTableViewController.m in Sources */,
@@ -908,6 +937,7 @@
 				0E6EDB962099B6B000E3DF69 /* TYDrawStorage.m in Sources */,
 				0E69099B2085C478006C15FD /* UIAlertController+WJCategory.m in Sources */,
 				0E69097B2085C478006C15FD /* WJFileManager.m in Sources */,
+				0EF3A2A620DFBE5F00DD4AD7 /* SilederVCViewController.m in Sources */,
 				0E69099A2085C478006C15FD /* UIButton+WJCategory.m in Sources */,
 				0E0F863A2094710F000F85E7 /* MASViewAttribute.m in Sources */,
 				0E6909A32085C478006C15FD /* WJBaseViewController.m in Sources */,
