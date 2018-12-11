@@ -259,4 +259,44 @@
 
 #pragma mark: -end-
 
+#pragma mark -字典转->字符串,字符串->字典
+
+/**
+ 字符串转字典
+
+ @param jsonString 字符串
+ @return 字典
+ */
++ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString
+{
+    if (jsonString == nil) {
+        return nil;
+    }
+    NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
+    NSError *err;
+    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
+    if(err) {
+        NSLog(@"json解析失败：%@",err);
+        return nil;
+    }
+    return dic;
+}
+
+
+/**
+ 字典转字符串
+
+ @param dic dict
+ @return 字典转成的字符串
+ */
++(NSString*)dictionaryToJson:(NSDictionary *)dic
+{
+    NSError *parseError = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
+    
+    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+}
+
+#pragma mark: -end-
+
 @end
