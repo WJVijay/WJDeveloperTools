@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E036E4B21C363C100196B9B /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E036E4921C363C100196B9B /* NullSafe.m */; };
+		0E036E4C21C363C100196B9B /* shuoming.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E036E4A21C363C100196B9B /* shuoming.txt */; };
 		0E0F86312094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0E0F86322094710F000F85E7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86212094710F000F85E7 /* ViewController+MASAdditions.m */; };
 		0E0F86332094710F000F85E7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86252094710F000F85E7 /* MASCompositeConstraint.m */; };
@@ -116,6 +118,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E036E4921C363C100196B9B /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		0E036E4A21C363C100196B9B /* shuoming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shuoming.txt; sourceTree = "<group>"; };
 		0E0F86172094710F000F85E7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		0E0F86192094710F000F85E7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -335,6 +339,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E036E4821C363C100196B9B /* NullSafe */ = {
+			isa = PBXGroup;
+			children = (
+				0E036E4921C363C100196B9B /* NullSafe.m */,
+				0E036E4A21C363C100196B9B /* shuoming.txt */,
+			);
+			path = NullSafe;
+			sourceTree = "<group>";
+		};
 		0E0F86162094710F000F85E7 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,6 +629,7 @@
 		0E690A082085EE21006C15FD /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				0E036E4821C363C100196B9B /* NullSafe */,
 				0E690A092085EE21006C15FD /* GuidePage */,
 				0E690A232085EE21006C15FD /* AppearMenu */,
 			);
@@ -864,6 +878,7 @@
 				0EDA6C7C20859F470052590C /* Main.storyboard in Resources */,
 				0E690A4F2085EE21006C15FD /* contacts_add_scan@2x.png in Resources */,
 				0E690A362085EE21006C15FD /* guid01.png in Resources */,
+				0E036E4C21C363C100196B9B /* shuoming.txt in Resources */,
 				0E690A3A2085EE21006C15FD /* hidden@3x.png in Resources */,
 				0E3E6BF820B7DBE000F082AA /* 11.png in Resources */,
 				0E690A482085EE21006C15FD /* contacts_add_friend@2x.png in Resources */,
@@ -920,6 +935,7 @@
 				0E690A512085EE21006C15FD /* PopoverView.m in Sources */,
 				0E6909932085C478006C15FD /* UITextView+WJCategory.m in Sources */,
 				0E11818B20D4E31E0022E705 /* FSCalendarScopeHandle.m in Sources */,
+				0E036E4B21C363C100196B9B /* NullSafe.m in Sources */,
 				0E11818420D4E31E0022E705 /* FSCalendarCollectionView.m in Sources */,
 				0E11818920D4E31E0022E705 /* FSCalendar.m in Sources */,
 				0E69099E2085C478006C15FD /* NSMutableDictionary+WJCagtegoty.m in Sources */,
