@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0E036E4B21C363C100196B9B /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E036E4921C363C100196B9B /* NullSafe.m */; };
 		0E036E4C21C363C100196B9B /* shuoming.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E036E4A21C363C100196B9B /* shuoming.txt */; };
+		0E0CDD3421F9CCD400CBC895 /* initializerDelegation01_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CDD3021F9CCD400CBC895 /* initializerDelegation01_2x.png */; };
+		0E0CDD3521F9CCD400CBC895 /* sharedStateClass_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CDD3121F9CCD400CBC895 /* sharedStateClass_2x.png */; };
+		0E0CDD3621F9CCD400CBC895 /* sharedStateStruct_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CDD3221F9CCD400CBC895 /* sharedStateStruct_2x.png */; };
+		0E0CDD3721F9CCD400CBC895 /* WJSwift 4.2.md in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CDD3321F9CCD400CBC895 /* WJSwift 4.2.md */; };
 		0E0F86312094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0E0F86322094710F000F85E7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86212094710F000F85E7 /* ViewController+MASAdditions.m */; };
 		0E0F86332094710F000F85E7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F86252094710F000F85E7 /* MASCompositeConstraint.m */; };
@@ -120,6 +124,10 @@
 /* Begin PBXFileReference section */
 		0E036E4921C363C100196B9B /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
 		0E036E4A21C363C100196B9B /* shuoming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shuoming.txt; sourceTree = "<group>"; };
+		0E0CDD3021F9CCD400CBC895 /* initializerDelegation01_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = initializerDelegation01_2x.png; sourceTree = "<group>"; };
+		0E0CDD3121F9CCD400CBC895 /* sharedStateClass_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedStateClass_2x.png; sourceTree = "<group>"; };
+		0E0CDD3221F9CCD400CBC895 /* sharedStateStruct_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharedStateStruct_2x.png; sourceTree = "<group>"; };
+		0E0CDD3321F9CCD400CBC895 /* WJSwift 4.2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "WJSwift 4.2.md"; sourceTree = "<group>"; };
 		0E0F86172094710F000F85E7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		0E0F86182094710F000F85E7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		0E0F86192094710F000F85E7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -346,6 +354,17 @@
 				0E036E4A21C363C100196B9B /* shuoming.txt */,
 			);
 			path = NullSafe;
+			sourceTree = "<group>";
+		};
+		0E0CDD2F21F9CCD400CBC895 /* 汪俊swift4.2笔记 */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CDD3021F9CCD400CBC895 /* initializerDelegation01_2x.png */,
+				0E0CDD3121F9CCD400CBC895 /* sharedStateClass_2x.png */,
+				0E0CDD3221F9CCD400CBC895 /* sharedStateStruct_2x.png */,
+				0E0CDD3321F9CCD400CBC895 /* WJSwift 4.2.md */,
+			);
+			path = "汪俊swift4.2笔记";
 			sourceTree = "<group>";
 		};
 		0E0F86162094710F000F85E7 /* Masonry */ = {
@@ -744,6 +763,7 @@
 			children = (
 				0EDA6C7420859F470052590C /* AppDelegate.h */,
 				0EDA6C7520859F470052590C /* AppDelegate.m */,
+				0E0CDD2F21F9CCD400CBC895 /* 汪俊swift4.2笔记 */,
 				0E6909092085C478006C15FD /* WJDeveloperTools */,
 				0E1CD1932085A0E5001E1262 /* VCS */,
 				0E3E6BEB20B7D8FD00F082AA /* Others */,
@@ -869,17 +889,21 @@
 				0EDA6C8120859F480052590C /* LaunchScreen.storyboard in Resources */,
 				0E0F863B2094710F000F85E7 /* Info.plist in Resources */,
 				0E11819320D4E31E0022E705 /* Info.plist in Resources */,
+				0E0CDD3721F9CCD400CBC895 /* WJSwift 4.2.md in Resources */,
 				0E690A392085EE21006C15FD /* guid04.png in Resources */,
 				0E690A4E2085EE21006C15FD /* right_menu_multichat@2x.png in Resources */,
 				0EDA6C7E20859F480052590C /* Assets.xcassets in Resources */,
 				0E690A462085EE21006C15FD /* navigationItem_menu@2x.png in Resources */,
+				0E0CDD3621F9CCD400CBC895 /* sharedStateStruct_2x.png in Resources */,
 				0E690A3B2085EE21006C15FD /* hidden@2x.png in Resources */,
 				0E690A4B2085EE21006C15FD /* right_menu_addFri@2x.png in Resources */,
 				0EDA6C7C20859F470052590C /* Main.storyboard in Resources */,
 				0E690A4F2085EE21006C15FD /* contacts_add_scan@2x.png in Resources */,
 				0E690A362085EE21006C15FD /* guid01.png in Resources */,
 				0E036E4C21C363C100196B9B /* shuoming.txt in Resources */,
+				0E0CDD3521F9CCD400CBC895 /* sharedStateClass_2x.png in Resources */,
 				0E690A3A2085EE21006C15FD /* hidden@3x.png in Resources */,
+				0E0CDD3421F9CCD400CBC895 /* initializerDelegation01_2x.png in Resources */,
 				0E3E6BF820B7DBE000F082AA /* 11.png in Resources */,
 				0E690A482085EE21006C15FD /* contacts_add_friend@2x.png in Resources */,
 			);
